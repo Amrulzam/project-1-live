@@ -6,7 +6,7 @@ import './App.css';
   RouterProvider
 } from 'react-router-dom'; */
 import {
-  BrowserRouter as Router,
+  hashRouter as Router,
   Routes,
   Route,
   Redirect,
