@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home-front-wrapper{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-color: rgba(240, 211, 175, 0.659);
+    justify-content: center;
+    align-items: center;
+}
+.home-front-wrapper .home-front-greetings{
+    width: 70%;
+    height: auto;
+    display: block;
+    justify-content: center;
+    margin-inline: auto;
+}
+.home-front-greetings h3{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+}
+.home-front-greetings p{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.about-wrapper{
+    width: 100%;
+    background-color: whitesmoke;
+    height: 500px;
+}
+
+.about-wrapper-front{
+    background-color: rgba(128, 128, 128, 0.523);
+    width: 70%;
+    height: 500px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+/* text inside wrapper */
+.about-wrapper-front div h3{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    transition: 1s;
+}
+.about-wrapper-front div h3:hover{
+    transform: scale(1.1);
+    color: orangered;
+}
+
+.about-wrapper-front div p{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
